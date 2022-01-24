@@ -4,9 +4,14 @@
 
 This tool allows you to magnify your image with smoothing, especially for anime screenshots and illustrations.
 
+## Requirements
+
+* Operating System: Windows
+* Graphics Card: Vulkan Supported
+
 ## Run
 
-Open Waifu2x.exe and follow the instructions.
+Download [Waifu2x.zip](https://github.com/ryanhe312/waifu2x-qt/releases/download/1.0.0/Waifu2x.zip) and unzip it. Open Waifu2x.exe and follow the instructions.
 
 (1) Set your input path and output path in Files Panel. Please use same file extensions for input and output.
 
