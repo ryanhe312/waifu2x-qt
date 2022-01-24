@@ -1,8 +1,11 @@
 # waifu2x-qt
 
 This tool allows you to magnify your image with smoothing, especially for anime screenshots and illustrations.
+
 (1) Set your input path and output path in Files Panel. Please use same file extensions for input and output.
+
 (2) Select your preferred engine and parameters in Configs Panel. (staying default is recommended)
+
 (3) Click Generate in Action Panel and wait for several minutes to process. 
 
 ## Run
