@@ -1,3 +1,5 @@
+![logo](./logo.png)
+
 # waifu2x-qt
 
 This tool allows you to magnify your image with smoothing, especially for anime screenshots and illustrations.
