@@ -9,6 +9,12 @@ This tool allows you to magnify your image with smoothing, especially for anime 
 * Operating System: Windows
 * Graphics Card: Vulkan Supported
 
+If you encounter crash or error, try to upgrade your GPU driver
+
+* Intel: https://downloadcenter.intel.com/product/80939/Graphics-Drivers
+* AMD: https://www.amd.com/en/support
+* NVIDIA: https://www.nvidia.com/Download/index.aspx
+
 ## Run
 
 Download [Waifu2x.zip](https://github.com/ryanhe312/waifu2x-qt/releases/download/1.0.0/Waifu2x.zip) and unzip it. Open Waifu2x.exe and follow the instructions.
