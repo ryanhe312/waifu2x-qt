@@ -37,6 +37,10 @@ pip install PyInstaller
 pyinstaller --onefile --windowed --icon=logo.ico main.py
 ```
 
+## Privacy Policy
+
+We generate log for feedback. We access images on disk to process. We do not collect any of your informations.
+
 ## LICENSE
 
 The source code can be accessed at [waifu2x-qt](https://github.com/ryanhe312/waifu2x-qt).
