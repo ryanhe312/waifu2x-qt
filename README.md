@@ -54,7 +54,7 @@ pip install PyInstaller
 
 2. Build package
 ```
-pyinstaller --onefile --windowed --icon=logo.ico main.py  --add-data "realesrgan;realesrgan" --add-data "waifu2x;waifu2x" --add-data "logo.ico;logo.ico" 
+pyinstaller --onefile --windowed --icon=logo.ico main.py  --add-data "realesrgan;realesrgan" --add-data "waifu2x;waifu2x" --add-data "logo.ico;." 
 ```
 
 ## Privacy
