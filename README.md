@@ -21,7 +21,7 @@ If you encounter crash or error, try to upgrade your GPU driver
 
 ## Run
 
-Download [Waifu2x.zip](https://github.com/ryanhe312/waifu2x-qt/releases/download/1.0.0/Waifu2x.zip) and unzip it. Open Waifu2x.exe and follow the instructions.
+Open Waifu2x.exe and follow the instructions.
 
 (1) Set your input path and output path in Files Panel. Please use same file extensions for input and output.
 
