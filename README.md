@@ -6,6 +6,7 @@ This tool allows you to magnify your image with smoothing, especially for anime 
 
 * 1.0.0 finish the basic function
 * 1.1.0 all in one file
+* 1.1.1 fix paths with spaces
 
 ## Requirements
 
