@@ -4,6 +4,9 @@
 
 This tool allows you to magnify your image with smoothing, especially for anime screenshots and illustrations.
 
+* 1.0.0 finish the basic function
+* 1.1.0 all in one file
+
 ## Requirements
 
 * Operating System: Windows
@@ -32,9 +35,9 @@ Download [Waifu2x.zip](https://github.com/ryanhe312/waifu2x-qt/releases/download
 2. Download waifu2x and real-esrgan package
 ```
 wget https://github.com/nihui/waifu2x-ncnn-vulkan/releases/download/20210521/waifu2x-ncnn-vulkan-20210521-windows.zip
-unzip waifu2x-ncnn-vulkan-20210521-windows.zip
+unzip waifu2x-ncnn-vulkan-20210521-windows.zip -d waifu2x
 wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.3.0/realesrgan-ncnn-vulkan-20211212-windows.zip
-unzip realesrgan-ncnn-vulkan-20211212-windows.zip
+unzip realesrgan-ncnn-vulkan-20211212-windows.zip -d realesrgan
 ```
 
 3. Prepare python environment
@@ -51,7 +54,7 @@ pip install PyInstaller
 
 2. Build package
 ```
-pyinstaller --onefile --windowed --icon=logo.ico main.py
+pyinstaller --onefile --windowed --icon=logo.ico main.py  --add-data "realesrgan;realesrgan" --add-data "waifu2x;waifu2x" --add-data "logo.ico;logo.ico" 
 ```
 
 ## Privacy
