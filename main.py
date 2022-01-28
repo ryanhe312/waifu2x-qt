@@ -5,13 +5,13 @@ from PySide6.QtWidgets import QMainWindow,QApplication,QFileDialog,QMessageBox
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QIcon
 from ui import Ui_MainWindow
-from engine import Client_Engine
+from engine import Client_Engine, resource_path
 
 class Client_View(QMainWindow,Ui_MainWindow):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-        self.setWindowIcon(QIcon('logo.ico'))
+        self.setWindowIcon(QIcon(resource_path('logo.ico')))
         self.show()
 
         self.about = QMessageBox(self);
