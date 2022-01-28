@@ -34,22 +34,22 @@ class Client_Engine(QObject):
 
         if param['model'] == 'SRCNN':
             engine = srcnn_path
-            args = [f" -m {os.path.join(srcnn_model_path,param['SRCNN'])}" ,
-                    f" -i {param['input']} ",
-                    f" -o {param['output']} ",
+            args = [f" -m \"{os.path.join(srcnn_model_path,param['SRCNN'])}\"" ,
+                    f" -i \"{param['input']}\" ",
+                    f" -o \"{param['output']}\" ",
                     f" -s {2**param['scale']}",
                     f" -n {param['noise']}"]
            
         else:
             engine = realesrgan_path
-            args = [f" -m {realesrgan_model_path} ",
+            args = [f" -m \"{realesrgan_model_path}\" ",
                     f" -n {param['RealESRGAN']} " ,
-                    f" -i {param['input']} ",
-                    f" -o {param['output']} ",
+                    f" -i \"{param['input']}\" ",
+                    f" -o \"{param['output']}\" ",
                     f" -s {2**param['scale']}"]
 
-        self.status.emit('[INFO] '+engine+' '.join(args))
-        self.process.startCommand(engine+' '.join(args))
+        self.status.emit('[INFO] '+f"\"{engine}\""+' '.join(args))
+        self.process.startCommand(f"\"{engine}\""+' '.join(args))
 
     def do_finish(self):
         self.status.emit("[INFO] Finished.")
