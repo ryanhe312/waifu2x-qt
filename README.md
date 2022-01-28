@@ -10,7 +10,7 @@ This tool allows you to magnify your image with smoothing, especially for anime 
 
 ## Requirements
 
-* Operating System: Windows
+* Operating System: Windows X64
 * Graphics Card: Vulkan Supported
 
 If you encounter crash or error, try to upgrade your GPU driver
