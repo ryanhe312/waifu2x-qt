@@ -2,41 +2,49 @@
 
 # waifu2x-qt
 
-This tool allows you to magnify your image with smoothing, especially for anime screenshots and illustrations.
 此工具可让您通过平滑放大图像，尤其是对于动漫屏幕截图和插图。
+
+This tool allows you to magnify your image with smoothing, especially for anime screenshots and illustrations.
 
 * 1.0.0 finish the basic function
 * 1.1.0 all in one file
 * 1.1.1 fix paths with spaces
 * 1.2.0 support Chinese
 
+## 配置要求/Requirements
 
+* 操作系统/Operating System: Windows X64
+* 显卡/Graphics Card: 支持Vulkan/Vulkan Support
 
-## Requirements/配置要求
-
-* Operating System/操作系统: Windows X64
-* Graphics Card/显卡: Vulkan Supported/支持Vulkan
+如果您遇到崩溃或错误，请尝试升级您的 GPU 驱动程序
 
 If you encounter crash or error, try to upgrade your GPU driver.
-如果您遇到崩溃或错误，请尝试升级您的 GPU 驱动程序
 
 * Intel: https://downloadcenter.intel.com/product/80939/Graphics-Drivers
 * AMD: https://www.amd.com/en/support
 * NVIDIA: https://www.nvidia.com/Download/index.aspx
 
-## Run/运行
+## 运行/Run
 
-Open Waifu2x_en.exe and follow the instructions.
+![Screenshot_ZH](./Screenshot_ZH.png)
+
 打开 Waifu2x_zh.exe 并按照说明进行操作。
 
-(1) Set your input path and output path in Files Panel. Please use same file extensions for input and output.
 (1) 在文件面板中设置输入路径和输出路径。 请使用相同的文件扩展名进行输入和输出。
 
-(2) Select your preferred engine and parameters in Configs Panel. (staying default is recommended)
 (2) 在配置面板中选择您喜欢的引擎和参数。 （建议保持默认）
 
-(3) Click Generate in Action Panel and wait for several minutes to process. 
 (3) 单击操作面板中的生成并等待几分钟进行处理。
+
+![Screenshot_EN](./Screenshot_EN.png)
+
+Open Waifu2x_en.exe and follow the instructions.
+
+(1) Set your input path and output path in Files Panel. Please use same file extensions for input and output.
+
+(2) Select your preferred engine and parameters in Configs Panel. (staying default is recommended)
+
+(3) Click Generate in Action Panel and wait for several minutes to process. 
 
 ## Develop
 
