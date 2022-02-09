@@ -46,7 +46,7 @@ class Client(object):
         self.view.InputButton.clicked.connect(self.openInput)
         self.view.OutputButton.clicked.connect(self.openOutput)
         self.engine.status.connect(self.status)
-        self.log = open('log.txt','w')
+#         self.log = open('log.txt','w')
 
     def openInput(self):
         self.status('[INFO] Open Input File.')
@@ -81,7 +81,7 @@ class Client(object):
             'output':   self.view.OutputEdit.text(),  
             'open': self.view.OpenImage.isChecked()      
         }
-        print(param,file=self.log, flush=True)
+#         print(param,file=self.log, flush=True)
 
         # sanity check
         if param['input'] == '' or param['output'] == '':
@@ -99,7 +99,7 @@ class Client(object):
         self.view.about.exec()
 
     def status(self,status):
-        print(status,file=self.log, flush=True)
+#         print(status,file=self.log, flush=True)
         self.view.statusbar.showMessage(status)
         
 
