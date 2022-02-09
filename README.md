@@ -10,6 +10,7 @@ This tool allows you to magnify your image with smoothing, especially for anime 
 * 1.1.0 all in one file
 * 1.1.1 fix paths with spaces
 * 1.2.0 support Chinese
+* 1.2.1 remove log to avoid administrator right
 
 ## 配置要求/Requirements
 
