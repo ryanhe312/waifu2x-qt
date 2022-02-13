@@ -46,7 +46,7 @@ class Client_Engine(QObject):
                     f" -n {param['RealESRGAN']} " ,
                     f" -i \"{param['input']}\" ",
                     f" -o \"{param['output']}\" ",
-                    f" -s {2**param['scale']}"]
+                    f" -s 4"]
 
         self.status.emit('[INFO] '+f"\"{engine}\""+' '.join(args))
         self.process.startCommand(f"\"{engine}\""+' '.join(args))
