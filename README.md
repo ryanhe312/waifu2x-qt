@@ -41,7 +41,7 @@ NVIDIA GPU: https://developer.nvidia.com/vulkan-driver
 
 (1) 在文件面板中设置输入路径和输出路径。 请使用相同的文件扩展名进行输入和输出。
 
-(2) 在配置面板中选择您喜欢的引擎和参数。 （建议保持默认）
+(2) 在配置面板中选择您喜欢的引擎和参数。 建议保持默认。只有SRCNN支持选择放大倍率和去噪强度。
 
 (3) 单击操作面板中的生成并等待几分钟进行处理。
 
@@ -51,7 +51,7 @@ Open Waifu2x_en.exe and follow the instructions.
 
 (1) Set your input path and output path in Files Panel. Please use same file extensions for input and output.
 
-(2) Select your preferred engine and parameters in Configs Panel. (staying default is recommended)
+(2) Select your preferred engine and parameters in Configs Panel. Staying default is recommended. Only SRCNN supports selection of magnification and denoising strength.
 
 (3) Click Generate in Action Panel and wait for several minutes to process. 
 
