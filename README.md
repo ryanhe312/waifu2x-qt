@@ -22,9 +22,9 @@
 
 (2)请务必检查您的显卡是否支持 Vulkan。 从以下 URL 检查是否支持 GPU。/Be sure to check your graphics card with Vulkan support. Check if GPU is supported from the following URL.
 
-Intel GPU: https://www.intel.com/content/www/us/en/support/articles/000005524/graphics.html
-AMD GPU: https://www.amd.com/en/technologies/vulkan
-NVIDIA GPU: https://developer.nvidia.com/vulkan-driver
+* Intel GPU: https://www.intel.com/content/www/us/en/support/articles/000005524/graphics.html
+* AMD GPU: https://www.amd.com/en/technologies/vulkan
+* NVIDIA GPU: https://developer.nvidia.com/vulkan-driver
 
 (3)如果您遇到崩溃或错误，请尝试升级您的 GPU 驱动程序。/If you encounter crash or error, try to upgrade your GPU driver.
 
@@ -86,8 +86,7 @@ pyinstaller --onefile --windowed --icon=logo.ico main.py  --add-data "realesrgan
 
 ## Privacy
 
-* We generate log for your convenient feedback. 
-* We access images on your disk to process. 
+* We access your selected images to process. 
 * We do not collect any of your informations.
 
 ## Credit
