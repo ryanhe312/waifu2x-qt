@@ -26,6 +26,10 @@
 * AMD GPU: https://www.amd.com/en/technologies/vulkan
 * NVIDIA GPU: https://developer.nvidia.com/vulkan-driver
 
+或者您可以使用这个工具检查是否支持Vulkan。/Or you can use this tool to check if Vulkan is supported.
+
+https://github.com/skeeto/vulkan-test/releases/download/1.0.2/vulkan_test.exe
+
 (3)如果您遇到崩溃或错误，请尝试升级您的 GPU 驱动程序。/If you encounter crash or error, try to upgrade your GPU driver.
 
 * Intel: https://downloadcenter.intel.com/product/80939/Graphics-Drivers
