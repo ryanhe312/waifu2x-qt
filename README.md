@@ -11,6 +11,12 @@
 * 1.2.1 remove log to avoid administrator right
 * 1.2.2 fix real-esrgan with ratio which is not 4
 
+## 支持作者/ Buy Me a Coffee
+
+你可以通过购买DLsite上的软件来支持开发。/You can support the developer by purchasing the DLsite version.
+
+https://www.dlsite.com/home/work/=/product_id/RJ375277.html
+
 ## 配置要求/Requirements
 
 * 操作系统/Operating System: Windows X64
