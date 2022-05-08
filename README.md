@@ -13,9 +13,13 @@
 
 ## 支持作者/ Buy Me a Coffee
 
-你可以通过购买DLsite上的软件来支持开发。/You can support the developer by purchasing the DLsite version.
+你可以通过购买DLsite上的软件来支持开发。
 
-https://www.dlsite.com/home/work/=/product_id/RJ375277.html
+https://www.dlsite.com/home/work/=/product_id/RJ390190.html
+
+You can support the developer by purchasing the DLsite version.
+
+https://www.dlsite.com/home/work/=/product_id/RJ390202.html
 
 ## 配置要求/Requirements
 
