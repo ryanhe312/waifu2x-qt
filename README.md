@@ -4,12 +4,15 @@
 
 此工具可让您通过平滑放大图像，尤其是对于动漫屏幕截图和插图。/This tool allows you to magnify your image with smoothing, especially for anime screenshots and illustrations.
 
+[new!]现在已经支持多选。/Multiple choice is supported now!
+
 * 1.0.0 finish the basic function
 * 1.1.0 all in one file
 * 1.1.1 fix paths with spaces
 * 1.2.0 support Chinese
 * 1.2.1 remove log to avoid administrator right
 * 1.2.2 fix real-esrgan with ratio which is not 4
+* 1.3.0 add multiple choice
 
 ## 支持作者/ Buy Me a Coffee
 
