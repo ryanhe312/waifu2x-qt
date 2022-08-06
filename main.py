@@ -25,15 +25,16 @@ class Client_View(QMainWindow,Ui_MainWindow):
 
         self.inputOpen = QFileDialog(self)
         self.inputOpen.setAcceptMode(QFileDialog.AcceptOpen)
+        self.inputOpen.setFileMode(QFileDialog.ExistingFiles)
         self.inputOpen.setWindowTitle('Select Open Path')
         self.inputOpen.setDirectory(os.getcwd())
         self.inputOpen.setNameFilter('Image Files(*.jpg *.png *.webp)')
 
         self.outputOpen = QFileDialog(self)
-        self.outputOpen.setAcceptMode(QFileDialog.AcceptSave)
+        # self.outputOpen.setAcceptMode(QFileDialog.AcceptSave)
+        self.outputOpen.setFileMode(QFileDialog.Directory)
         self.outputOpen.setWindowTitle('Select Save Path')
         self.outputOpen.setDirectory(os.getcwd())
-        self.outputOpen.setNameFilter('Image Files(*.jpg *.png *.webp)')
 
 
 class Client(object):
@@ -51,11 +52,9 @@ class Client(object):
     def openInput(self):
         self.status('[INFO] Open Input File.')
         if self.view.inputOpen.exec():
-            input_path = self.view.inputOpen.selectedFiles()[0]
-            form = self.view.inputOpen.selectedFiles()[0].split('.')[-1]
-            output_path = input_path[:-len(form)-1]+'_waifu2x.'+form
-            self.view.InputEdit.setText(input_path)
-            self.view.OutputEdit.setText(output_path)
+            input_path = self.view.inputOpen.selectedFiles()
+            self.view.InputEdit.setText(','.join(input_path))
+            self.view.OutputEdit.setText(os.path.dirname(input_path[0]))
             
 
     def openOutput(self):
@@ -77,17 +76,18 @@ class Client(object):
                      'realesrgan-x4plus-anime',
             'noise': self.view.DenoiseSlider.value(),
             'scale':   self.view.ScaleSlider.value(),
-            'input':   self.view.InputEdit.text(),
+            'input':   self.view.InputEdit.text().split(','),
             'output':   self.view.OutputEdit.text(),  
             'open': self.view.OpenImage.isChecked()      
         }
 #         print(param,file=self.log, flush=True)
 
         # sanity check
-        if param['input'] == '' or param['output'] == '':
+        if len(param['input'])<1 or len(param['output'])<1:
             self.status('[ERROR] Please provide non-empty paths.')
             return
 
+        self.engine.param={'total':len(param['input'])}
         self.engine.do_generate(param)
 
     def cancel(self):

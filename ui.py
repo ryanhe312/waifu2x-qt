@@ -188,9 +188,9 @@ class Ui_MainWindow(object):
 #     def retranslateUi(self, MainWindow):
 #         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Waifu2x - AI-powered Image Resize Tool", None))
 #         self.Files.setTitle(QCoreApplication.translate("MainWindow", u"Files", None))
-#         self.OutputPath.setText(QCoreApplication.translate("MainWindow", u"Output Path", None))
+#         self.OutputPath.setText(QCoreApplication.translate("MainWindow", u"Output Folder", None))
 #         self.OutputEdit.setText("")
-#         self.InputPath.setText(QCoreApplication.translate("MainWindow", u"Input Path", None))
+#         self.InputPath.setText(QCoreApplication.translate("MainWindow", u"Input Path(s)", None))
 #         self.InputButton.setText(QCoreApplication.translate("MainWindow", u"...", None))
 #         self.OutputButton.setText(QCoreApplication.translate("MainWindow", u"...", None))
 #         self.Configs.setTitle(QCoreApplication.translate("MainWindow", u"Configs", None))
@@ -228,16 +228,16 @@ class Ui_MainWindow(object):
 #         self.Actions.setTitle(QCoreApplication.translate("MainWindow", u"Actions", None))
 #         self.Generate.setText(QCoreApplication.translate("MainWindow", u"Generate", None))
 #         self.Cancel.setText(QCoreApplication.translate("MainWindow", u"Cancel", None))
-#         self.OpenImage.setText(QCoreApplication.translate("MainWindow", u"Open Output Image After Generation", None))
+#         self.OpenImage.setText(QCoreApplication.translate("MainWindow", u"Open Output Folder After Generation", None))
 #         self.About.setText(QCoreApplication.translate("MainWindow", u"About", None))
     # retranslateUi
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Waifu2x - 人工智能图像放大工具", None))
         self.Files.setTitle(QCoreApplication.translate("MainWindow", u"文件", None))
-        self.OutputPath.setText(QCoreApplication.translate("MainWindow", u"输出路径", None))
+        self.OutputPath.setText(QCoreApplication.translate("MainWindow", u"输出文件夹", None))
         self.OutputEdit.setText("")
-        self.InputPath.setText(QCoreApplication.translate("MainWindow", u"输入路径", None))
+        self.InputPath.setText(QCoreApplication.translate("MainWindow", u"输入文件", None))
         self.InputButton.setText(QCoreApplication.translate("MainWindow", u"...", None))
         self.OutputButton.setText(QCoreApplication.translate("MainWindow", u"...", None))
         self.Configs.setTitle(QCoreApplication.translate("MainWindow", u"设置", None))
@@ -275,5 +275,5 @@ class Ui_MainWindow(object):
         self.Actions.setTitle(QCoreApplication.translate("MainWindow", u"操作", None))
         self.Generate.setText(QCoreApplication.translate("MainWindow", u"生成", None))
         self.Cancel.setText(QCoreApplication.translate("MainWindow", u"取消", None))
-        self.OpenImage.setText(QCoreApplication.translate("MainWindow", u"生成后打开图像", None))
+        self.OpenImage.setText(QCoreApplication.translate("MainWindow", u"生成后打开文件夹", None))
         self.About.setText(QCoreApplication.translate("MainWindow", u"关于", None))
