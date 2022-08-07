@@ -222,7 +222,7 @@ class Ui_MainWindow(object):
 #         self.Scalelabel.setText(QCoreApplication.translate("MainWindow", u"Select the scale ratio.", None))
 #         self.Introduction.setTitle(QCoreApplication.translate("MainWindow", u"Introduction", None))
 #         self.description.setText(QCoreApplication.translate("MainWindow", u"This tool allows you to magnify your image with smoothing, especially for anime screenshots and illustrations.\n"
-# "(1) Set your input path and output path in Files Panel. Please use same file extensions for input and output.\n"
+# "(1) Set your input path and output path in Files Panel. The input path supports multiple selection.\n"
 # "(2) Select your preferred engine and parameters in Configs Panel. (staying default is recommended) \n"
 # "(3) Click Generate in Action Panel and wait for several minutes to process. ", None))
 #         self.Actions.setTitle(QCoreApplication.translate("MainWindow", u"Actions", None))
@@ -230,7 +230,6 @@ class Ui_MainWindow(object):
 #         self.Cancel.setText(QCoreApplication.translate("MainWindow", u"Cancel", None))
 #         self.OpenImage.setText(QCoreApplication.translate("MainWindow", u"Open Output Folder After Generation", None))
 #         self.About.setText(QCoreApplication.translate("MainWindow", u"About", None))
-    # retranslateUi
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Waifu2x - 人工智能图像放大工具", None))
@@ -269,7 +268,7 @@ class Ui_MainWindow(object):
         self.Scalelabel.setText(QCoreApplication.translate("MainWindow", u"选择放大倍率。", None))
         self.Introduction.setTitle(QCoreApplication.translate("MainWindow", u"介绍", None))
         self.description.setText(QCoreApplication.translate("MainWindow", u"此工具可让您通过平滑放大图像，尤其是对于动漫屏幕截图和插图。\n"
-"(1) 在文件面板中设置输入路径和输出路径。 请使用相同的文件扩展名进行输入和输出。\n"
+"(1) 在文件面板中设置输入路径和输出路径。 输入路径支持多选。\n"
 "(2) 在配置面板中选择您喜欢的引擎和参数。 （建议保持默认） \n"
 "(3) 单击操作面板中的生成并等待几分钟进行处理。 ", None))
         self.Actions.setTitle(QCoreApplication.translate("MainWindow", u"操作", None))
@@ -277,3 +276,49 @@ class Ui_MainWindow(object):
         self.Cancel.setText(QCoreApplication.translate("MainWindow", u"取消", None))
         self.OpenImage.setText(QCoreApplication.translate("MainWindow", u"生成后打开文件夹", None))
         self.About.setText(QCoreApplication.translate("MainWindow", u"关于", None))
+
+#     def retranslateUi(self, MainWindow):
+#         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Waifu2x - AI画像拡大ツール", None))
+#         self.Files.setTitle(QCoreApplication.translate("MainWindow", u"ファイル", None))
+#         self.OutputPath.setText(QCoreApplication.translate("MainWindow", u"出力パス", None))
+#         self.OutputEdit.setText("")
+#         self.InputPath.setText(QCoreApplication.translate("MainWindow", u"入力パス", None))
+#         self.InputButton.setText(QCoreApplication.translate("MainWindow", u"...", None))
+#         self.OutputButton.setText(QCoreApplication.translate("MainWindow", u"...", None))
+#         self.Configs.setTitle(QCoreApplication.translate("MainWindow", u"設定", None))
+#         self.ModelSRCNN.setText(QCoreApplication.translate("MainWindow", u"SRCNN(2015)", None))
+#         self.Model.setText(QCoreApplication.translate("MainWindow", u"処理エンジン", None))
+#         self.ModelRealESRGAN.setText(QCoreApplication.translate("MainWindow", u"Real-ESRGAN(2021)", None))
+#         self.SRCNN.setTitle(QCoreApplication.translate("MainWindow", u"SRCNN モデル", None))
+#         self.SRCNNphoto.setText(QCoreApplication.translate("MainWindow", u"upconv_7_photo(写真に適用)", None))
+#         self.SRCNNcunet.setText(QCoreApplication.translate("MainWindow", u"cunet(ディフォルト)", None))
+#         self.SRCNNanime.setText(QCoreApplication.translate("MainWindow", u"upconv_7_anime_style_art_rgb(アニメに適用)", None))
+#         self.RealESRGAN.setTitle(QCoreApplication.translate("MainWindow", u"Real-ESRGAN モデル", None))
+#         self.realesrnetx4plus.setText(QCoreApplication.translate("MainWindow", u"realesrnet-x4plus(代わり)", None))
+#         self.realesrganx4plusanime.setText(QCoreApplication.translate("MainWindow", u"realesrgan-x4plus-anime(アニメに適用)", None))
+#         self.realesrganx4plus.setText(QCoreApplication.translate("MainWindow", u"realesrgan-x4plus(ディフォルト)", None))
+#         self.Denoise.setTitle(QCoreApplication.translate("MainWindow", u"ノイズ除去レベル(SRCNN)", None))
+#         self.Denoise0.setText(QCoreApplication.translate("MainWindow", u"-1", None))
+#         self.Denoise3.setText(QCoreApplication.translate("MainWindow", u"2", None))
+#         self.Denoise4.setText(QCoreApplication.translate("MainWindow", u"3", None))
+#         self.Denoise1.setText(QCoreApplication.translate("MainWindow", u"0", None))
+#         self.Denoise2.setText(QCoreApplication.translate("MainWindow", u"1", None))
+#         self.Denoiselabel.setText(QCoreApplication.translate("MainWindow", u"ノイズスムージングレベルを選択してください。", None))
+#         self.Scale.setTitle(QCoreApplication.translate("MainWindow", u"サイズ(SRCNN)", None))
+#         self.Scale3.setText(QCoreApplication.translate("MainWindow", u"4", None))
+#         self.Scale2.setText(QCoreApplication.translate("MainWindow", u"2", None))
+#         self.Scale6.setText(QCoreApplication.translate("MainWindow", u"32", None))
+#         self.Scale1.setText(QCoreApplication.translate("MainWindow", u"1", None))
+#         self.Scale4.setText(QCoreApplication.translate("MainWindow", u"8", None))
+#         self.Scale5.setText(QCoreApplication.translate("MainWindow", u"16", None))
+#         self.Scalelabel.setText(QCoreApplication.translate("MainWindow", u"拡大倍率を選択してください。", None))
+#         self.Introduction.setTitle(QCoreApplication.translate("MainWindow", u"紹介", None))
+#         self.description.setText(QCoreApplication.translate("MainWindow", u"このツールを使用すると、特にアニメのスクリーンショットやイラストの画像をスムーズに拡大できます。\n"
+# "(1) [ファイル]パネルで[入力パス]と[出力パス]を設定します。 入力パスは複数選択をサポートしています。\n"
+# "(2) [設定]パネルで希望のエンジンとパラメーターを選択します。 デフォルトのままにすることをお勧めします。 \n"
+# "(3) [操作]パネルで[生成]をクリックし、処理されるまで数分待ちます。 ", None))
+#         self.Actions.setTitle(QCoreApplication.translate("MainWindow", u"操作", None))
+#         self.Generate.setText(QCoreApplication.translate("MainWindow", u"生成", None))
+#         self.Cancel.setText(QCoreApplication.translate("MainWindow", u"キャンセル", None))
+#         self.OpenImage.setText(QCoreApplication.translate("MainWindow", u"生成後に出力パスを開く", None))
+#         self.About.setText(QCoreApplication.translate("MainWindow", u"製品情報", None))

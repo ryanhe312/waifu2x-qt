@@ -50,13 +50,13 @@ https://github.com/skeeto/vulkan-test/releases/download/1.0.2/vulkan_test.exe
 * NVIDIA: https://www.nvidia.com/Download/index.aspx
 
 
-## 运行/Run
+## 运行/Manual
 
 ![Screenshot_ZH](./Screenshot_ZH.png)
 
 打开 Waifu2x_zh.exe 并按照说明进行操作。
 
-(1) 在文件面板中设置输入路径和输出路径。 请使用相同的文件扩展名进行输入和输出。
+(1) 在文件面板中设置输入路径和输出路径。 输入路径支持多选。
 
 (2) 在配置面板中选择您喜欢的引擎和参数。 建议保持默认。只有SRCNN支持选择放大倍率和去噪强度。
 
@@ -66,7 +66,7 @@ https://github.com/skeeto/vulkan-test/releases/download/1.0.2/vulkan_test.exe
 
 Open Waifu2x_en.exe and follow the instructions.
 
-(1) Set your input path and output path in Files Panel. Please use same file extensions for input and output.
+(1) Set your input path and output path in Files Panel. The input path supports multiple selection.
 
 (2) Select your preferred engine and parameters in Configs Panel. Staying default is recommended. Only SRCNN supports selection of magnification and denoising strength.
 
