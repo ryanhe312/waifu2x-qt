@@ -36,6 +36,18 @@ class Client_View(QMainWindow,Ui_MainWindow):
         self.outputOpen.setWindowTitle('Select Save Path')
         self.outputOpen.setDirectory(os.getcwd())
 
+        self.setAcceptDrops(True)
+
+    def dragEnterEvent(self, event):
+        if event.mimeData().hasUrls:
+            event.accept()
+        else:
+            event.ignore()
+
+    def dropEvent(self, event):
+        urls = [i.toString()[8:] for i in event.mimeData().urls()]
+        self.InputEdit.setText(','.join(urls))
+        self.OutputEdit.setText(os.path.dirname(urls[0]))
 
 class Client(object):
     def __init__(self,view:Client_View,engine:Client_Engine):

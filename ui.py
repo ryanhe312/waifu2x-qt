@@ -222,7 +222,7 @@ class Ui_MainWindow(object):
 #         self.Scalelabel.setText(QCoreApplication.translate("MainWindow", u"Select the scale ratio.", None))
 #         self.Introduction.setTitle(QCoreApplication.translate("MainWindow", u"Introduction", None))
 #         self.description.setText(QCoreApplication.translate("MainWindow", u"This tool allows you to magnify your image with smoothing, especially for anime screenshots and illustrations.\n"
-# "(1) Set your input path and output path in Files Panel. The input path supports multiple selection.\n"
+# "(1) Set your input path and output path in Files Panel. The input path supports multiple selection and drag&drop.\n"
 # "(2) Select your preferred engine and parameters in Configs Panel. (staying default is recommended) \n"
 # "(3) Click Generate in Action Panel and wait for several minutes to process. ", None))
 #         self.Actions.setTitle(QCoreApplication.translate("MainWindow", u"Actions", None))
@@ -268,7 +268,7 @@ class Ui_MainWindow(object):
         self.Scalelabel.setText(QCoreApplication.translate("MainWindow", u"选择放大倍率。", None))
         self.Introduction.setTitle(QCoreApplication.translate("MainWindow", u"介绍", None))
         self.description.setText(QCoreApplication.translate("MainWindow", u"此工具可让您通过平滑放大图像，尤其是对于动漫屏幕截图和插图。\n"
-"(1) 在文件面板中设置输入路径和输出路径。 输入路径支持多选。\n"
+"(1) 在文件面板中设置输入路径和输出路径。 输入路径支持多选和拖拽。\n"
 "(2) 在配置面板中选择您喜欢的引擎和参数。 （建议保持默认） \n"
 "(3) 单击操作面板中的生成并等待几分钟进行处理。 ", None))
         self.Actions.setTitle(QCoreApplication.translate("MainWindow", u"操作", None))
@@ -314,7 +314,7 @@ class Ui_MainWindow(object):
 #         self.Scalelabel.setText(QCoreApplication.translate("MainWindow", u"拡大倍率を選択してください。", None))
 #         self.Introduction.setTitle(QCoreApplication.translate("MainWindow", u"紹介", None))
 #         self.description.setText(QCoreApplication.translate("MainWindow", u"このツールを使用すると、特にアニメのスクリーンショットやイラストの画像をスムーズに拡大できます。\n"
-# "(1) [ファイル]パネルで[入力パス]と[出力パス]を設定します。 入力パスは複数選択をサポートしています。\n"
+# "(1) [ファイル]パネルで[入力パス]と[出力パス]を設定します。 入力パスは複数選択やファイルのドラッグ&ドロップをサポートしています。\n"
 # "(2) [設定]パネルで希望のエンジンとパラメーターを選択します。 デフォルトのままにすることをお勧めします。 \n"
 # "(3) [操作]パネルで[生成]をクリックし、処理されるまで数分待ちます。 ", None))
 #         self.Actions.setTitle(QCoreApplication.translate("MainWindow", u"操作", None))
